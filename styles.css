@@ -1,0 +1,16 @@
+
+.fieldset-auto-width{
+    display: inline-block;
+    width: 80%; /* Adjust the width as needed */ 
+    margin: 0 auto; /* Center the fieldset */ 
+    padding: 20px; /* Optional: add padding inside the fieldset */ 
+    border: 1px solid #ccc; /* Optional: styling for the border */ 
+    border-radius: 5px; /* Optional: rounded corners */
+    
+}
+table, tr, th, td, caption{
+    border: 1px solid #eee;
+    font-family: 'Courier New', Courier, monospace ;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}

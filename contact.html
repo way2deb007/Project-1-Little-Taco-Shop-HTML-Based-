@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        .fieldset-auto-width{
+        display: inline-block;
+        width: 80%; /* Adjust the width as needed */ 
+        margin: 0 auto; /* Center the fieldset */ 
+        padding: 20px; /* Optional: add padding inside the fieldset */ 
+        border: 1px solid #ccc; /* Optional: styling for the border */ 
+        border-radius: 5px; /* Optional: rounded corners */
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="#">
+        <fieldset class="fieldset-auto-width">
+            <h1>Contact Us</h1>
+            <nav>
+                <ul><a href="home.html">Home</a></ul>
+                <ul><a href="home.html#about">About LTS</a></ul>
+                <ul><a href="home.html#menu">Our Menu</a></ul>
+                <ul><a href="hours.html">Store Hours</a></ul>
+            </nav>
+            <img src="taco2.png">
+            <div>Little Taco Shop Tacos</div>
+            <h2>Our Contact Form</h2>
+            <form>
+                <fieldset>
+                    <legend>Send Us A Message</legend>
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" placeholder="enter your name" autocomplete="on">
+                    </div>
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" placeholder="enter your email">
+                    </div>
+                    <div>
+                        <label for="message">Your Message:</label><br>
+                        <textarea id="message" rows="4" cols="50"></textarea>
+                    </div>
+                    
+                </fieldset>
+                <div>
+                    <button>Send</button> 
+                    <button>Reset</button>
+                </div>
+            </form>
+
+            <h2>Our Location</h2>
+
+            <address>
+                555 Taco Temptation Lane, Suite T<br>
+                Kansas City, MO 55555-5555<br>
+                Phone: <a href="tel:5555555555">555-555-5555</a>
+            </address>
+            <div><a href="#">Back to top</a></div>
+            <hr>
+            <div>
+                Copyright &copy; The Little Taco Shop
+            </div>
+            
+        </fieldset>
+    </div>
+</body>
+</html>
